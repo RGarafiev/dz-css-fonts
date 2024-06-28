@@ -1,0 +1,832 @@
+@import url(/fonts/gilroy/fonts.css);
+@import url(/reset.css);
+
+body {
+    background: rgb(245, 246, 250);
+}
+
+.logo_text {
+    color: rgb(144, 145, 149);
+    font-family: Gilroy;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.rating {
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.green_project_btn-text{
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12.68px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mail {
+    color: rgb(150, 152, 159);
+    font-family: Gilroy;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 11.5px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.whatsapp_text {
+    color: rgb(210, 211, 214);
+    font-family: Gilroy;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10.5px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.telephone_text {
+    color: rgb(210, 211, 214);
+    font-family: Gilroy;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10.5px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.telephone_num {
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.79px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.order_text {
+    color: rgb(135, 191, 60);
+    font-family: Gilroy;
+    font-size: 12.27px;
+    font-weight: 600;
+    line-height: 13.32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header-navigation {
+    display: flex;
+}
+
+.search {
+    color: rgb(251, 255, 255);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.header__navigation-link {
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: left;
+}  
+
+ h2 {
+    color: rgb(45, 45, 47);
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}  
+
+span {
+    font-weight: bold;
+}
+
+.header {
+    background-image: url(/img/main-img.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat:  no-repeat;
+
+}
+
+.build_text {
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.yellow_btn-text {
+    color: rgb(251, 255, 255);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.main_info-block {
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.quiz-block__text {
+    color: rgb(38, 36, 37);
+    font-family: Gilroy;
+    font-size: 25.09px;
+    font-weight: 600;
+    line-height: 18.82px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.quiz-block__item {
+    color: rgb(85, 80, 80);
+    font-family: Gilroy;
+    font-size: 18.33px;
+    font-weight: 600;
+    line-height: 19.9px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.quiz-block__text_light-text {
+    color: rgb(119, 119, 121);
+    font-family: Gilroy;
+    font-size: 10.72px;
+    font-weight: 400;
+    line-height: 14.26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Michael{
+    color: rgb(39, 38, 39);
+font-family: Gilroy;
+font-size: 25.09px;
+font-weight: 600;
+line-height: 18.82px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.Michael2 {
+    color: rgb(160, 158, 161);
+    font-family: Gilroy;
+    font-size: 13.35px;
+    font-weight: 400;
+    line-height: 10.02px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Michael3 {
+    color: rgb(75, 71, 71);
+    font-family: Gilroy;
+    font-size: 16.03px;
+    font-weight: 600;
+    line-height: 12.02px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.discount-block {
+    color: rgb(75, 71, 71);
+    font-family: Gilroy;
+    font-size: 13.47px;
+    font-weight: 600;
+    line-height: 14.26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.seller-card_block {
+    color: rgb(243, 243, 243);
+    font-family: Gilroy;
+    font-size: 13.47px;
+    font-weight: 400;
+    line-height: 14.26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.house_project_card{
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 29.26px;
+    font-weight: 700;
+    line-height: 29.26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 28.57px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.house_card-info p {
+    color: rgb(122, 125, 129);
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13.22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.house_card-type {
+    color: rgb(122, 125, 129);
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13.22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.house_card-price {
+    color: rgb(122, 125, 129);
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13.22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.house_card-price span {
+    color: rgb(115, 185, 24);
+    font-family: Gilroy;
+    font-size: 31.58px;
+    font-weight: 700;
+    line-height: 31.58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.stages {
+    color: rgb(51, 52, 56);
+    font-family: Gilroy;
+    font-size: 17.66px;
+    font-weight: 600;
+    line-height: 48.91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.time_text {
+    color: rgb(122, 125, 129);
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 12.74px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cottage-text {
+    color: rgb(76, 79, 86);
+    font-family: Gilroy;
+    font-size: 35.35px;
+    font-weight: 700;
+    line-height: 36.01px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.checkMarks_text {
+    color: rgb(76, 79, 86);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.05px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.note_text {
+    color: rgb(76, 79, 86);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.example {
+    color: rgb(80, 84, 87);
+    font-family: Gilroy;
+    font-size: 15.41px;
+    font-weight: 400;
+    line-height: 16.38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.stock-header {
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 26.45px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.stock-text{
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14.91px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.stock_btn{
+    color: rgb(0, 0, 0);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.45px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.map {
+    color: rgb(133, 183, 62);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17.78px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.name_text {
+    color: rgb(76, 79, 86);
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36.9px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.building_info{
+    color: rgb(142, 144, 147);
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.total_info{
+    color: rgb(86, 89, 95);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18.84px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.total-text {
+    color: rgb(86, 89, 95);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18.84px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.yellow_btn {
+    color: rgb(252, 252, 254);
+font-family: Gilroy;
+font-size: 13px;
+font-weight: 700;
+line-height: 17.28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.excursion-header{
+    color: rgb(45, 45, 47);
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 37.29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.excursion  {
+    color: rgb(76, 79, 86);
+font-family: Gilroy;
+font-size: 18.42px;
+font-weight: 400;
+line-height: 20.47px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.checkMarks_text p{
+    color: rgb(0, 0, 0);
+font-family: Gilroy;
+font-size: 12.85px;
+font-weight: 400;
+line-height: 14.28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.inputs {
+    color: rgb(65, 62, 63);
+    font-family: Gilroy;
+    font-size: 12.85px;
+    font-weight: 300;
+    line-height: 14.28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.policy-text {
+    color: rgb(65, 62, 63);
+    font-family: Gilroy;
+    font-size: 9.11px;
+    font-weight: 600;
+    line-height: 10.12px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header-catalog {
+    color: rgb(76, 79, 86);
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 27.19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.text-catalog {
+    color: rgb(76, 79, 86);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.3px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.question-catalog {
+    color: rgb(45, 45, 47);
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.feedback-text {
+    color: rgb(45, 45, 47);
+    font-family: Gilroy;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.name-text {
+    color: rgb(54, 53, 57);
+    font-family: Gilroy;
+    font-size: 20.03px;
+    font-weight: 700;
+    line-height: 20.13px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+
+.date-text{
+    color: rgb(109, 113, 118);
+    font-family: Gilroy;
+    font-size: 12.99px;
+    font-weight: 400;
+    line-height: 13.06px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+
+.description-text{
+    color: rgb(0, 0, 0);
+    font-family: Gilroy;
+    font-size: 13.41px;
+    font-weight: 400;
+    line-height: 18.3px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.next {
+    color: rgb(243, 180, 63);
+    font-family: Gilroy;
+    font-size: 13.41px;
+    font-weight: 500;
+    line-height: 18.3px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.company_cheif{
+    color: rgb(45, 45, 47);
+    font-family: Gilroy;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 47.67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.right_side-portfolio p {
+    color: rgb(111, 114, 118);
+    font-family: Gilroy;
+    font-size: 14.16px;
+    font-weight: 400;
+    line-height: 20.02px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.black {
+    color: rgb(38, 36, 37);
+    font-family: Gilroy;
+    font-size: 46.95px;
+    font-weight: 700;
+    line-height: 48.09px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.portfolio-text {
+    color: rgb(67, 71, 73);
+    font-family: Gilroy;
+    font-size: 18.3px;
+    font-weight: 400;
+    line-height: 19.05px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+
+.questions_text {
+    color: rgb(45, 45, 47);
+    font-family: Gilroy;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 47.67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.questions p {
+    color: rgb(86, 89, 98);
+font-family: Gilroy;
+font-size: 11.25px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.accordion_menu {
+    color: rgb(88, 91, 99);
+    font-family: Gilroy;
+    font-size: 15.67px;
+    font-weight: 700;
+    line-height: 20.9px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.discount_description_block h5 {
+    color: rgb(45, 45, 47);
+    font-family: Gilroy;
+    font-size: 35.89px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.grey {
+    color: rgb(73, 75, 80);
+    font-family: Gilroy;
+    font-size: 15.75px;
+    font-weight: 700;
+    line-height: 17.81px;
+    letter-spacing: 0%;
+    text-align: center;   
+}
+
+.discount-text {
+    color: rgb(73, 75, 80);
+    font-family: Gilroy;
+    font-size: 11.78px;
+    font-weight: 400;
+    line-height: 13.32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.discount-header {
+    color: rgb(38, 36, 37);
+    font-family: Gilroy;
+    font-size: 18.41px;
+    font-weight: 700;
+    line-height: 18.92px;
+    letter-spacing: 0%;
+    text-align: center;   
+}
+
+.discount-text2 {
+    color: rgb(76, 79, 86);
+    font-family: Gilroy;
+    font-size: 13.26px;
+    font-weight: 400;
+    line-height: 14.34px;
+    letter-spacing: 0%;
+    text-align: center;  
+}
+
+.bold {
+    color: rgb(38, 36, 37);
+    font-family: Gilroy;
+    font-size: 13.8px;
+    font-weight: 700;
+    line-height: 14.19px;
+    letter-spacing: 0%;
+    text-align: center;   
+}
+
+h6 {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21.84px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+
+.contacts-text {
+    color: rgb(96, 95, 96);
+    font-family: Gilroy;
+    font-size: 9.9px;
+    font-weight: 400;
+    line-height: 10.49px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+
+.contacts-num {
+    color: rgb(54, 52, 53);
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.11px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+
+.contacts-num-order{
+    color: rgb(140, 183, 70);
+    font-family: Gilroy;
+    font-size: 14.69px;
+    font-weight: 700;
+    line-height: 15.55px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contacts-online{
+    color: rgb(54, 52, 53);
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 13.77px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.green_btn {
+    color: rgb(252, 252, 254);
+    font-family: Gilroy;
+    font-size: 13.73px;
+    font-weight: 700;
+    line-height: 18.24px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+
+.location p {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.91px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+
+.footer {
+    color: rgb(251, 255, 255);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;   
+}
+
+.copyrights {
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 15.21px;
+    font-weight: 500;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+
+.personal_data {
+    color: rgb(229, 181, 62);
+    font-family: Gilroy;
+    font-size: 15.21px;
+    font-weight: 500;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
